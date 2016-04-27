@@ -9,3 +9,11 @@ The script `run_analysis.R` is designed to fullfil the following objectives:
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The end result is written in a `.txt` file named: "tidy" which is included in this repo
+***
+### Comments
+If trying to run this script in your own computer, make sure to adjust the working directory to the space in your computer where you wish to have all this done.
+
+The script file `run_analysis.R` does most of the work for you  
+* downloads the data from the web
+* reads, cleans, merges, and melts
+* generates `tidy.txt` which will be stored in you workin directory
