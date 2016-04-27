@@ -1,6 +1,5 @@
-# Getting and Cleaning Data Project
-## Coursera by Johns Hopkins University 
-#### by A Suarez-Pierre
+# Getting and Cleaning Data Project (JHU)
+### by A Suarez-Pierre
 
 The script `run_analysis.R` is designed to fullfil the following objectives:
   1. Merges the training and the test sets to create one data set. 
