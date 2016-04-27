@@ -57,7 +57,7 @@ testSubjects = read.table("test/subject_test.txt")
 train = cbind(trainSubjects, trainActivities, trainMeasurements)
 test = cbind(testSubjects, testActivities, testMeasurements)
 
-df = rbind(train, test)       # MONEY $$$
+df = rbind(train, test)
 colnames(df) = c("subject", "activity", features[extracts,2])
 
 
@@ -77,4 +77,4 @@ df.mean = dcast(df.melt, subject+activity~variable, mean)
 
 
 # exporting dataset
-write.table(df.mean, "tidy.txt", quote=FALSE, row.names=FALSE)
+write.table(df.mean, "tidy.txt", quote=FALSE, row.names=FALSE)    # MONEY $$$
